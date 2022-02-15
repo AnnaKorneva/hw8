@@ -1,0 +1,22 @@
+.nav-menu__link:hover,
+.nav-menu__link:focus,
+.buttons:hover,
+.buttons:focus,
+.nav-list__link:focus,
+.nav-list__link:hover,
+.contacts__link:focus,
+.contacts__link:hover {
+  color: var(---accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+}
+.contacts__link:hover .contacts__icon,
+.contacts__link:focus .contacts__icon {
+  fill: var(---accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+span {
+  color: var(---accent-color);
+}
